@@ -5,7 +5,7 @@ const Desktop = () => {
     <div className=' col-lg-4'>
     <div className='p-2 shadow-sm b-5 mb-5 bg-body rounded '>
         <div className='p-3'>
-            <h2>Desarrollo Movil</h2>
+            <h2>Desarrollo Desktop</h2>
         </div>
         <div className="p-3 ">
 
@@ -13,7 +13,7 @@ const Desktop = () => {
                 <div className='row '>
                     <div className='col-lg-9'>
                         <div className="d-flex w-100 justify-content-between">
-                            <h5 className="text-success mb-2">Desarrollo Nativo con Java</h5>
+                            <h5 className="text-success mb-2">Desarrollo con Java</h5>
 
                         </div>
                         <p className="mb-1">Java fue elegido como el lenguaje para el entorno de 
@@ -32,13 +32,10 @@ const Desktop = () => {
                 <div className='row  pt-5'>
                     <div className='col-lg-9'>
                         <div className="d-flex w-100 justify-content-between">
-                            <h5 className="text-success mb-2">Desarrollo Hibrido con Xamarin Forms</h5>
+                            <h5 className="text-success mb-2">Desarrollo Desktop con C#</h5>
 
                         </div>
-                        <p className="mb-1">Xamarin.Forms es un marco multiplataforma de 
-                        código abierto de Microsoft para crear aplicaciones de iOS, Android 
-                        y Windows con .NET 
-                        a partir de una única base de código compartida.</p>
+                        <p className="mb-1">Con C# conozco lo básico, lo he usado desarrollo para windows forms, para sistema de gestión de transacciones como facturación.</p>
                         
                     </div>
                     <div className='col-lg-3'>
@@ -49,12 +46,10 @@ const Desktop = () => {
                 <div className='row  pt-5'>
                     <div className='col-lg-9'>
                         <div className="d-flex w-100 justify-content-between">
-                            <h5 className="text-success mb-2">Desarrollo nativo con Flutter</h5>
+                            <h5 className="text-success mb-2">Desarrollo Desktop con Python</h5>
 
                         </div>
-                        <p className="mb-1">Flutter es un marco de trabajo de código abierto 
-                        de Google para crear hermosas aplicaciones multiplataforma 
-                        compiladas de forma nativa a partir de una única base de código.</p>
+                        <p className="mb-1">En python los módulos que mas he usado para desarrollo para escritorio es Tkinter y PyQT5, el primero para la gestión de logs de Os con modulo OS y un poco de Shell Scrypting</p>
                       
                     </div>
                     <div className='col-lg-3'>

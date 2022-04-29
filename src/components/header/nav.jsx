@@ -3,6 +3,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faBars } from "@fortawesome/free-solid-svg-icons"
 import {} from "@fortawesome/free-brands-svg-icons"
 import {useState, useRef} from "react";
+import React from 'react';
 
 
 const Nav = () => {
@@ -34,16 +35,15 @@ const Nav = () => {
                     <a href="/contact">Contact</a>
                 </li>
                 <li>
-                    <a href="">Blog</a>
+                    <a href="https://darwinghernandez.netlify.app/">about</a>
                 </li>
-                <li>
-                    <a href="">Login</a>
-                </li>
+                
 
             </ul>
             <div id="btn-hamburguesa" onClick={buttonClick} className="menu-btn">
             <FontAwesomeIcon icon={faBars} />
             </div>
+           
         </nav>
     );
 

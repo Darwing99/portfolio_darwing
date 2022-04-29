@@ -148,3 +148,6 @@
     grid-template-columns: repeat(auto-fill,minmax(min(100%,25rem),1fr));
   }
 
+  .carousel {position: relative;}
+
+.carousel-inner {position: relative; width: 100%; overflow: hidden;}

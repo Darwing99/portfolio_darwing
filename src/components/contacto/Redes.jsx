@@ -2,11 +2,9 @@ import React from 'react'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 import {
-    faFacebook,
+  
     faInstagram,
     faLinkedin,
-    faTwitter,
-    faWhatsapp,
     faYoutube
 } from '@fortawesome/free-brands-svg-icons';
 import {faGifts} from '@fortawesome/free-solid-svg-icons';
@@ -30,10 +28,7 @@ const Redes = () => {
                 </div>
                 <div className='pt-5 row'>
                     <div class="p-5 list-group">
-                        <a href='https://www.facebook.com/darwingcastellanos.hernandez'  type="button" class="list-group-item list-group-item-action " aria-current="true">
-                            Facebook
-                            <FontAwesomeIcon icon={faFacebook}/>
-                        </a>
+                      
                         <a type="button" class="list-group-item list-group-item-action">
                             Instagram
                             <FontAwesomeIcon icon={faInstagram}/>

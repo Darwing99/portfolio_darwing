@@ -4,7 +4,7 @@ import Message from './Message';
 import Redes from './Redes';
 import Whatsapp from './Whatsapp';
 const Contact = () => {
-   
+
     return (
         <div className='pt-5'>
             <div className=' pt-5 shadow-sm b-5 mb-5 bg-body container '>
